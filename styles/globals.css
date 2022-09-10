@@ -32,10 +32,14 @@ a {
   padding-left: 4rem;
   background-color: black;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 2rem 0;
 }
+
 .card {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
+  font-size: 1.3rem;
 }
 .card:hover {
   color: teal;
