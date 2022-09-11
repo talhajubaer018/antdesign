@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
 html,
 body {
@@ -15,6 +15,8 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,13 +30,18 @@ a {
 }
 
 .container {
-  padding-top: 2rem;
-  padding-left: 4rem;
   background-color: black;
-  color: white;
+  color: white !important;
   display: grid;
+  gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  padding: 2rem 0;
+  padding: 2rem;
+}
+.container_white {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 2rem;
 }
 
 .card {
