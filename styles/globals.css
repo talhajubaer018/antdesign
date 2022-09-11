@@ -44,3 +44,6 @@ a {
 .card:hover {
   color: teal;
 }
+.back-btn {
+  text-align: center;
+}

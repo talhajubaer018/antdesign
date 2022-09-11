@@ -7,7 +7,7 @@ export default function Home() {
       {
         items.map((item, index) => (
           <div className='card' key={index}>
-            <Link href={`./${item.name.toLocaleLowerCase()}`}>
+            <Link href={`/${item.name.toLocaleLowerCase()}`}>
               <a className='card'>{item.name}</a>
             </Link>
           </div>

@@ -16,7 +16,7 @@ const icon = () => {
     
     return (
         <div className='container'>
-            <Link href='./'><a className='back-btn'>Go Back</a></Link>
+            <Link href='/'><a className='back-btn'>Go Back</a></Link>
             <SettingFilled />
             <HeartTwoTone twoToneColor="#52c41a" />
             <Icon component={HeartIcon} />
