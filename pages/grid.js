@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Divider, Row, Grid, Tag } from "antd";
 import Link from "next/link";
 
-const Grid = () => {
+const GridAD = () => {
   const style = {
     background: "#0092ff",
     padding: "8px 0",
@@ -86,4 +86,4 @@ const Grid = () => {
   );
 };
 
-export default Grid;
+export default GridAD;

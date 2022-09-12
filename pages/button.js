@@ -3,7 +3,7 @@ import React from 'react'
 import { Button } from 'antd'
 import Link from 'next/link';
 
-const Button = () => {
+const ButtonAD = () => {
   return (
     <div className='container'>
       <Link href='/'><a className='back-btn'>Go Back</a></Link>
@@ -14,4 +14,4 @@ const Button = () => {
   )
 }
 
-export default Button
+export default ButtonAD

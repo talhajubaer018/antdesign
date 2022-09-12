@@ -2,7 +2,7 @@ import React from "react";
 import { Divider } from "antd";
 import Link from "next/link";
 
-const Divider = () => {
+const DividerAD = () => {
   return (
     <div className="container_white">
       <Divider orientation="right" orientationMargin={50}>
@@ -18,4 +18,4 @@ const Divider = () => {
   );
 };
 
-export default Divider;
+export default DividerAD;

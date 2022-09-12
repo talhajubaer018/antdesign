@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Divider, Typography, Space } from "antd";
 import { CheckOutlined, HighlightOutlined, SmileFilled, SmileOutlined } from "@ant-design/icons";
 
-const Typography = () => {
+const TypographyAD = () => {
   const { Title, Paragraph, Text, Link, blockquote } = Typography;
 
   const blockContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eius iusto earum dolorum odio natus? Harum, est facilis fugiat quo deserunt rerum animi alias nisi veniam iste, quisquam doloribus consectetur.`;
@@ -130,4 +130,4 @@ const Typography = () => {
   );
 };
 
-export default Typography;
+export default TypographyAD;
