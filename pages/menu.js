@@ -138,7 +138,7 @@ const MenuAD = () => {
         <Button type="primary" onClick={toggleCollapsed} style={{ marginBottom: 16 }}>
           {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
         </Button>
-        <Menu inlineCollapsed={collapsed} mode="inline" theme="dark" onClick={onClick2} defaultSelectedKeys={["1"]} defaultOpenKeys={["sub1"]} mode="inline" items={items3} />
+        <Menu inlineCollapsed={collapsed} mode="inline" theme="dark" onClick={onClick2} defaultSelectedKeys={["1"]} defaultOpenKeys={["sub1"]} items={items3} />
       </div>
       <div>
         <Switch onChange={changeMode} /> Change Mode
