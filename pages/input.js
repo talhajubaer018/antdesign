@@ -49,7 +49,7 @@ const InputAD = () => {
         />
       </Space>
       <Space>
-        <Search placeholder='input search text' allowClear enterButton='Search' size='large' onSearch={onSearch} enterButton />
+        <Search placeholder='input search text' allowClear enterButton='Search' size='large' onSearch={onSearch} />
         <Search placeholder='input search text' enterButton='Search' size='large' suffix={suffix} onSearch={onSearch} />
       </Space>
     </div>
